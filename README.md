@@ -1,6 +1,8 @@
 # GTA VI Twitch Launch Forecast
 
 [![make.fun · gta6-twitch-ccu-forecast-01](https://make.fun/badge/gta6-twitch-ccu-forecast-01.svg)](https://make.fun/bounty/gta6-twitch-ccu-forecast-01?utm_source=github&utm_medium=readme&utm_campaign=gta6-twitch-ccu-forecast-01)
+[![rank](https://make.fun/badge/gta6-twitch-ccu-forecast-01/mma293408/gta6-twitch-forecast/rank.svg)](https://make.fun/bounty/gta6-twitch-ccu-forecast-01/leaderboard?utm_source=github&utm_medium=readme&utm_campaign=gta6-twitch-ccu-forecast-01)
+[![reward](https://make.fun/badge/gta6-twitch-ccu-forecast-01/mma293408/gta6-twitch-forecast/reward.svg)](https://make.fun/bounty/gta6-twitch-ccu-forecast-01?utm_source=github&utm_medium=readme&utm_campaign=gta6-twitch-ccu-forecast-01)
 
 Node.js 22 forecaster for the remaining 23 hours of the UTC launch day. It writes the 5th, 25th, 50th, 75th and 95th percentiles of concurrent Twitch viewers for each hour. It uses no external packages, network, credentials or random numbers.
 
@@ -30,4 +32,4 @@ node verify.mjs /path/to/kit /path/to/scratch-practice practice
 
 The historical checks use the comparable titles in `p00.in`, excluding the GTA VI category's pre-release series. Before June 1, 2025, the development check excludes the test title from its analogue pool in each fold. The holdout check uses only the older pool as analogues. Both check sets put only data through hour 1 of the test title in the program's input, and use the later observations exclusively in the scorer. The comparison runs the kit's own starter and applies the published log pinball loss. The four official practice inputs have no labels in the kit; the practice check validates the output schema, its byte-for-byte reproducibility and its wall time.
 
-License: MIT. This is a local submission candidate; it has no public repository or official score yet.
+License: MIT.
